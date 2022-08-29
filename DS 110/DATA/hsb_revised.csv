@@ -1,0 +1,601 @@
+﻿sub,Gender,race,ses,sctyp,hsp,locus,concpt,mot,car,rdg,wrtg,math,sci,civ
+1,Female,Black,Low,Public,Technical/Vocational,.29,.88,.67,10,33.6,43.7,40.2,39,40.6
+2,Male,Black,Low,Public,Standard,-.42,.03,.33,2,46.9,35.9,41.9,36.3,45.6
+3,Female,Black,Low,Public,Standard,.71,.03,.67,9,41.6,59.3,41.9,44.4,45.6
+4,Female,Black,Medium,Public,Technical/Vocational,.06,.03,0,15,38.9,41.1,32.7,41.7,40.6
+5,Female,Black,Medium,Public,Technical/Vocational,.22,-.28,0,1,36.3,48.9,39.5,41.7,45.6
+6,Male,Black,Medium,Public,Standard,.46,.03,0,11,49.5,46.3,46.2,41.7,35.6
+7,Male,Black,Low,Public,College Prep,.44,-.47,.33,10,62.7,64.5,48,63.4,55.6
+8,Female,Black,Low,Public,College Prep,.68,.25,1,9,44.2,51.5,36.9,49.8,55.6
+9,Male,Black,Medium,Public,College Prep,.06,.56,.33,9,46.9,41.1,45.3,47.1,55.6
+10,Female,Black,Low,Public,College Prep,.05,.15,1,11,44.2,49.5,40.5,39,50.6
+11,Female,Black,Low,Public,College Prep,.25,.34,1,9,49.5,61.9,42.9,41.7,50.6
+12,Male,Black,Low,Public,Standard,.06,-.59,0,8,44.2,41.1,59.8,44.4,35.6
+13,Male,Black,Low,Public,College Prep,-1.1,.03,0,7,46.9,40.4,42.8,45,30.6
+14,Female,Black,Medium,Public,Standard,.52,-.59,.67,4,41.6,59.3,38.6,36.3,50.6
+15,Male,Black,Medium,Public,Technical/Vocational,-1.28,1.19,1,9,41.6,41.1,45.9,44.4,40.6
+16,Female,Black,Low,Public,College Prep,.06,.03,1,10,46.9,41.1,46.2,39.6,40.6
+17,Female,Black,High,Public,College Prep,.26,.03,1,10,60.1,64.5,55.7,63.4,60.5
+18,Male,Black,Medium,Public,Technical/Vocational,.21,.94,0,12,38.9,48.9,41.8,58.5,45.6
+19,Male,Black,Medium,Public,College Prep,.06,.03,1,6,57.4,54.1,58.9,47.1,50.6
+20,Male,Black,High,Public,College Prep,.28,.03,1,10,73.3,64.5,68,63.4,70.5
+21,Male,Black,Medium,Public,Standard,-.44,-.84,.33,2,46.9,46.3,45.9,37.9,45.6
+22,Female,Black,Low,Public,College Prep,-.43,.13,.33,7,38.9,44.3,51.6,43.9,48.1
+23,Female,Black,Low,Public,Technical/Vocational,-.22,.32,.33,1,35.2,38.5,39.9,34.7,40.6
+24,Female,Black,Low,Public,Technical/Vocational,.73,-1.42,.33,15,38.9,41.1,41,36.3,45.6
+25,Male,Black,Medium,Public,Technical/Vocational,.26,.03,.33,11,48.4,48.9,52.2,43.9,50.6
+26,Female,Black,Medium,Public,College Prep,1.12,-.74,.67,15,31,41.1,36,36.9,45.6
+27,Female,Black,High,Public,Standard,.46,.59,1,16,52.1,62.5,53.6,56.3,65.5
+28,Female,Black,Medium,Public,Standard,-.6,-.47,.67,9,46.9,54.1,49,52.6,60.5
+29,Female,Black,Medium,Public,College Prep,-.9,.03,.67,4,36.3,44.3,36.1,33.6,40.6
+30,Female,Black,Medium,Public,College Prep,.31,1.19,1,9,46.9,44.3,41.9,39,50.6
+31,Male,Black,Medium,Public,College Prep,-.21,-1.38,0,9,34.2,46.3,44.5,39,35.6
+32,Female,Black,Medium,Public,College Prep,.69,.34,1,9,52.1,56.7,53.4,60.7,45.6
+33,Female,Black,Medium,Public,Standard,-.19,-1.67,0,13,42.1,39.8,42.2,38.5,40.6
+34,Male,Black,Medium,Public,Technical/Vocational,-1.78,.56,.33,8,37.3,43.7,45.4,39,45.6
+35,Male,Black,Medium,Public,Technical/Vocational,.3,.56,1,16,44.2,33.3,37.7,30.9,41.9
+36,Male,Black,Medium,Public,College Prep,1.36,.44,.67,9,70.7,58,65.4,63.4,60.5
+37,Female,Black,Medium,Public,Technical/Vocational,-1.05,-1.65,0,9,46.9,46.3,38.6,47.1,60.5
+38,Male,Black,Medium,Public,Technical/Vocational,.29,.39,.33,7,41.6,33.3,37.6,28.2,45.6
+39,Male,Black,Medium,Public,College Prep,-.83,.13,1,9,41.6,35.9,36.7,36.3,55.6
+40,Male,Black,High,Public,College Prep,.21,-.28,.67,12,46.9,41.1,53.6,41.7,55.6
+41,Male,Black,High,Public,College Prep,-.03,.63,.67,9,52.1,54.1,48.2,55.3,60.5
+42,Male,Black,Medium,Public,College Prep,.03,.28,.33,8,52.1,54.1,52,55.3,50.6
+43,Male,Black,High,Public,Technical/Vocational,-.83,1.19,.67,9,38.9,38.5,44.4,26,41.9
+44,Female,Black,Low,Public,Technical/Vocational,.22,-.76,1,15,31,41.1,49.2,33.6,35.6
+45,Male,Black,High,Public,College Prep,1.16,.32,1,9,60.1,54.1,48.6,58,30.6
+46,Male,Black,Low,Public,Technical/Vocational,-.22,-1.34,.67,16,46.9,31.3,43.6,36.3,35.6
+47,Male,Black,Low,Public,Standard,-.18,.15,0,15,38.9,28.1,36,36.3,35.6
+48,Female,Black,High,Public,Technical/Vocational,.02,.03,.33,4,41.6,35.9,37.7,41.7,45.6
+49,Female,Black,Medium,Public,College Prep,-1.06,.03,.67,6,46.9,56.7,48,44.4,40.6
+50,Male,Black,Medium,Public,Standard,-1.33,.03,1,9,41.6,48.9,33.7,44.4,45.6
+51,Male,Black,Low,Public,Technical/Vocational,-1.55,.03,0,9,36.3,41.1,43.5,33.6,40.6
+52,Male,Black,Medium,Public,Technical/Vocational,-1.58,.56,.67,2,49.5,33.3,48.7,44.4,35.6
+53,Female,Black,High,Public,Technical/Vocational,.47,-.09,.33,9,33.6,33.9,38.8,39.6,30.6
+54,Male,Black,High,Public,Technical/Vocational,.46,.03,.67,9,54.8,54.7,56.9,58,40.6
+55,Female,Black,Low,Public,Standard,-1.78,.56,1,9,28.3,46.3,42.8,44.4,50.6
+56,Male,Black,Low,Public,College Prep,-.84,-1.09,.33,2,41.6,41.7,45.1,36.3,40.6
+57,Female,Black,Medium,Public,Standard,-.89,-.18,.67,10,44.2,43.7,44.5,41.7,50.6
+58,Male,Black,High,Public,College Prep,-.68,-.26,0,2,60.1,51.5,56.8,60.7,60.5
+59,Female,Black,Low,Public,Technical/Vocational,-.6,.32,1,1,38.9,56.7,41.2,33.6,55.6
+60,Male,Black,Medium,Public,Technical/Vocational,-.59,1.19,.67,6,36.3,36.5,35.1,33.6,35.6
+61,Male,Black,Medium,Public,Standard,-.04,.65,1,16,44.2,44.3,61.1,49.8,45.6
+62,Female,Black,Low,Public,Standard,.52,-.28,.67,9,38.9,41.7,33.7,30.9,50.6
+63,Female,Black,Low,Public,Standard,-.34,.59,1,7,38.9,33.9,35.1,44.4,40.6
+64,Male,Black,Medium,Public,Technical/Vocational,-.44,.03,.33,9,41.6,38.5,38.7,56.3,45.6
+65,Male,Black,Medium,Public,Technical/Vocational,-.21,.03,1,6,41.6,43.7,51.1,49.8,40.6
+66,Female,Other,High,Public,College Prep,.32,-1.17,.33,9,52.1,54.1,58.1,47.1,60.5
+67,Female,Other,Low,Public,College Prep,-.71,-2.29,.33,9,65.4,64.5,63.7,58,70.5
+68,Male,Other,Low,Public,Standard,.45,.03,.67,2,41.6,25.5,44.3,36.3,35.6
+69,Male,Other,Low,Public,Standard,.71,.03,1,10,46.9,61.9,46.2,60.7,45.6
+70,Male,Other,Medium,Public,College Prep,.06,.44,.67,9,52.1,61.9,66.3,47.1,45.6
+71,Female,Other,Medium,Public,Technical/Vocational,.06,.28,1,1,44.2,54.1,47.1,58,50.6
+72,Male,Other,High,Public,College Prep,.91,.34,1,10,52.1,54.1,58.1,55.8,50.6
+73,Female,Other,Medium,Public,Standard,-1.09,.03,.33,2,46.9,43.7,41.9,41.7,35.6
+74,Female,Other,High,Public,College Prep,.02,.03,.67,10,65.4,56.7,62.3,58.5,55.6
+75,Male,Other,High,Private,College Prep,-1.05,.28,.67,9,62.7,64.5,66.3,58,60.5
+76,Female,Other,High,Public,College Prep,.11,-1.42,1,16,60.1,59.3,62.1,60.7,50.6
+77,Male,Other,Medium,Public,Technical/Vocational,.89,.32,.67,10,46.9,44.3,48.7,53.1,55.6
+78,Male,Other,Low,Public,Technical/Vocational,-.45,-.64,.33,9,65.4,56.7,55.2,52.6,55.6
+79,Male,Other,Medium,Public,College Prep,.46,-.3,1,10,53.2,60.6,61.2,56.9,55.6
+80,Female,Other,Medium,Public,College Prep,.46,-1.17,0,9,68,62.5,65.4,60.7,60.5
+81,Female,Other,High,Public,College Prep,.28,.94,1,10,54.8,56,43.5,49.8,50.6
+82,Female,Other,Medium,Public,Standard,.06,.9,.67,9,38.9,52.8,54.4,49.8,40.6
+83,Male,Other,Medium,Public,College Prep,.06,.94,1,7,52.1,51.5,57.9,60.7,35.6
+84,Male,Other,High,Public,College Prep,-.17,.31,1,10,65.4,67.1,75.5,71.5,70.5
+85,Male,Other,Low,Public,Standard,-.38,.03,0,2,52.1,43.7,49.4,55.3,40.6
+86,Female,Other,High,Public,College Prep,.23,-.6,1,10,57.4,67.1,68,59.1,65.5
+87,Male,Other,Medium,Public,College Prep,1.36,.59,1,10,62.7,67.1,69.6,68.8,55.6
+88,Female,Other,High,Public,College Prep,-.39,1.19,1,9,40.5,59.3,41.9,33.6,50.6
+89,Male,Other,Medium,Public,Standard,-1.28,-1.05,.33,9,57.4,43.7,57.8,60.7,45.6
+90,Female,Other,Low,Public,Technical/Vocational,-.65,-1.17,0,8,36.3,30.7,45.9,36.3,40.6
+91,Female,Other,Medium,Private,Standard,-.4,-.47,1,10,54.8,59.3,51.8,41.7,55.6
+92,Female,Other,High,Public,Technical/Vocational,.06,-.29,.67,1,49.5,56.7,68.1,49.8,55.6
+93,Female,Other,Medium,Public,College Prep,.55,.9,1,9,62.7,61.9,59.6,60.7,65.5
+94,Female,Other,High,Public,Technical/Vocational,-.35,-.89,0,1,49.5,67.1,66.4,66.1,55.6
+95,Female,Other,Medium,Public,College Prep,.3,-1.09,0,9,51.1,56.7,55.3,47.7,56.8
+96,Female,Other,Low,Public,Technical/Vocational,-.93,.65,1,5,47.4,45.6,49.4,42.3,45.6
+97,Female,Other,Low,Public,College Prep,1.16,-.72,.67,10,56.9,64.5,72.2,54.2,55.6
+98,Male,Other,High,Public,College Prep,0,.15,.33,10,73.3,64.5,75.5,60.7,50.6
+99,Male,Other,Medium,Public,College Prep,.52,.34,1,9,52.1,54.1,51.4,49.8,50.6
+100,Female,Black,High,Private,College Prep,.42,-.47,.33,10,73.3,61.2,57.4,54.7,65.5
+101,Male,Black,Medium,Private,Standard,-.67,-.47,0,8,44.2,48.9,43.1,55.3,45.6
+102,Female,Black,High,Private,College Prep,.45,.65,1,9,57.4,56.7,46.9,52.6,55.6
+103,Female,Black,Low,Private,Standard,.06,.32,0,15,60.1,54.1,49.9,49.8,50.6
+104,Male,Black,Medium,Private,College Prep,.26,.88,1,9,65.4,59.3,62.3,60.7,65.5
+105,Female,Black,High,Private,College Prep,.46,.34,1,9,57.4,54.1,59.6,60.7,70.5
+106,Female,Hispanic,Low,Public,Standard,-.89,-1.23,1,10,44.2,48.9,43.8,35.2,50.6
+107,Female,Hispanic,Medium,Public,Technical/Vocational,.57,-2.62,0,11,38.9,28.1,38.4,44.4,35.6
+108,Female,Hispanic,High,Public,Technical/Vocational,.26,.94,0,17,54.8,38.5,46.8,36.3,45.6
+109,Female,Hispanic,Low,Public,Technical/Vocational,.31,1.19,1,1,40.5,46.9,40.4,39,50.6
+110,Male,Hispanic,Low,Public,Technical/Vocational,.93,-1.63,.67,8,38.9,41.1,40.3,34.1,45.6
+111,Male,Hispanic,High,Public,College Prep,.68,.94,1,9,62.7,52.1,66.1,68.8,50.6
+112,Male,Hispanic,Low,Public,College Prep,.03,.32,1,6,44.7,56.7,50.3,30.9,55.6
+113,Male,Hispanic,High,Public,College Prep,-.03,.87,1,7,53.2,46.3,43,41.7,50.6
+114,Male,Hispanic,Medium,Public,College Prep,.24,-.35,1,8,30.5,35.9,36.9,33.6,40.6
+115,Female,Hispanic,High,Public,College Prep,1.14,1.19,1,9,65.9,67.1,67.1,60.7,65.5
+116,Female,Hispanic,Medium,Public,College Prep,.27,.34,1,7,49.5,48.9,48,41.7,60.5
+117,Female,Hispanic,Low,Public,Technical/Vocational,-1.34,1.19,1,9,44.2,41.1,44.2,44.4,40.6
+118,Male,Hispanic,Low,Public,Standard,.45,-.91,.33,2,41.6,41.1,42.8,49.8,40.6
+119,Female,Hispanic,Low,Public,College Prep,.28,1.19,1,1,56.4,59.3,38.5,55.3,56.8
+120,Female,Hispanic,Low,Public,Technical/Vocational,-1.33,-.26,.67,15,38.4,37.2,33.4,30.9,36.9
+121,Male,Hispanic,Medium,Public,College Prep,.49,.94,1,9,49.5,39.8,44.5,55.3,55.6
+122,Female,Hispanic,Low,Public,College Prep,.1,.32,.67,9,40,40.4,42.4,48.8,60.5
+123,Female,Hispanic,Medium,Public,Standard,1.11,-1.05,.33,9,70.7,67.1,63,63.4,65.5
+124,Female,Hispanic,Medium,Public,Technical/Vocational,.22,-.76,.67,16,45.8,52.1,54.9,44.4,55.6
+125,Female,Hispanic,High,Public,Standard,.75,-.72,.67,14,42.6,46.3,41.2,28.2,45.6
+126,Male,Hispanic,Medium,Public,College Prep,.89,.15,.67,10,68,59.3,56.6,50.4,60.5
+127,Female,Hispanic,Low,Public,College Prep,-.49,.03,0,8,46.9,37.2,42.8,41.7,45.6
+128,Male,Hispanic,Medium,Public,College Prep,.49,.44,.67,10,53.7,43.7,51.1,52,43.1
+129,Male,Hispanic,Medium,Public,Technical/Vocational,-.38,.34,.67,7,38.9,28.1,35.3,39,40.6
+130,Female,Hispanic,Low,Public,Technical/Vocational,-.6,.9,.67,1,46.9,61.9,45.4,33.6,45.6
+131,Female,Hispanic,Medium,Public,College Prep,1.36,.65,.67,10,59,56.7,52.9,48.8,56.8
+132,Female,Hispanic,Low,Public,College Prep,-.24,-.16,.33,16,62.7,61.9,52.4,47.1,60.5
+133,Female,Hispanic,Low,Public,Technical/Vocational,-.23,.44,.33,14,33.6,35.2,40.9,29.3,25.7
+134,Female,Hispanic,Medium,Public,College Prep,.51,-1.29,.33,1,39.4,41.7,46.9,35.2,50.6
+135,Male,Hispanic,Medium,Public,Technical/Vocational,-.6,-1.43,1,10,38.9,51.5,38.6,39,35.6
+136,Female,Hispanic,Low,Public,College Prep,.06,.94,.67,9,45.3,54.7,44.3,33.6,40.6
+137,Male,Hispanic,Medium,Public,College Prep,-.37,-1.9,.67,6,54.8,36.5,37.7,49.8,60.5
+138,Male,Hispanic,Medium,Public,College Prep,.46,.94,.33,5,36.3,30.7,44.8,39.6,40.6
+139,Female,Hispanic,Low,Public,College Prep,.44,.65,1,8,46.9,46.3,48.5,32.5,40.6
+140,Female,Hispanic,Low,Public,Technical/Vocational,.1,1.19,1,15,38.9,35.9,46.8,39,40.6
+141,Male,Hispanic,Medium,Public,Technical/Vocational,-2.23,1.19,1,8,36.3,38.5,39.3,39,45.6
+142,Male,Hispanic,Medium,Public,College Prep,1.13,.87,1,10,57.4,54.7,51.7,49.8,50.6
+143,Male,Hispanic,Medium,Public,College Prep,.26,1.19,1,9,52.1,52.8,37.6,52.6,50.6
+144,Female,Hispanic,Low,Public,Standard,-.04,-.29,.67,10,41.6,38.5,40.2,33.6,45.6
+145,Male,Hispanic,High,Public,Technical/Vocational,.69,.03,.67,9,49.5,39.8,38.6,49.3,46.8
+146,Female,Hispanic,Low,Public,Standard,-1.76,-.93,.67,6,36.3,38.5,36.4,36.3,50.6
+147,Male,Hispanic,High,Public,Technical/Vocational,-.66,-.08,1,12,44.7,33.3,33.7,39,35.6
+148,Male,Hispanic,Medium,Public,Standard,-.44,-.31,.67,9,49.5,59.3,42.1,52.6,60.5
+149,Male,Hispanic,Low,Public,College Prep,1.16,1.19,.33,9,55.3,46.9,49.1,54.2,51.8
+150,Female,Hispanic,Medium,Public,College Prep,.91,-.28,1,7,60.1,67.1,56.2,37.4,50.6
+151,Female,Hispanic,High,Public,Standard,.75,-.26,.67,15,41.6,35.9,42,31.4,39.4
+152,Male,Hispanic,Medium,Public,College Prep,-1.14,-.06,1,6,36.3,46.3,36.9,41.7,35.6
+153,Female,Hispanic,Medium,Public,Standard,.46,.03,1,14,52.1,56.7,62.8,47.1,60.5
+154,Female,Hispanic,Low,Public,College Prep,.45,.03,1,1,49.5,46.3,52.9,52.6,65.5
+155,Female,Hispanic,Low,Public,Technical/Vocational,-.54,-.59,1,4,38.9,35.9,38.4,33.6,35.6
+156,Male,Hispanic,High,Public,Technical/Vocational,-.42,-.6,1,14,54.8,56.7,64.7,58,60.5
+157,Male,Hispanic,Medium,Public,Technical/Vocational,-.38,.56,1,2,33.6,36.5,45.7,39,30.6
+158,Female,Hispanic,Low,Public,Standard,1.16,.59,1,10,36.3,45,44.3,39,40.6
+159,Male,Hispanic,Low,Public,Standard,-.68,.32,.67,9,36.3,44.3,34.4,47.1,45.6
+160,Female,Hispanic,Low,Private,Standard,.7,.87,1,1,46.9,54.1,46.4,49.8,55.6
+161,Female,Hispanic,Medium,Private,College Prep,.48,.63,1,10,54.8,48.2,58.7,51.5,45.6
+162,Female,Hispanic,High,Private,College Prep,-.4,-1.8,.33,1,50,45,42.9,41.7,45.6
+163,Female,Hispanic,Medium,Private,College Prep,.66,0,1,10,52.1,48.9,48.5,44.4,60.5
+164,Male,White,High,Public,College Prep,.06,.03,1,9,62.7,64.5,71.3,55.3,70.5
+165,Male,White,Low,Public,Technical/Vocational,.46,-1.17,.33,5,46.9,30.7,40.3,58,35.6
+166,Male,White,Medium,Public,Technical/Vocational,-.4,.88,.33,3,54.8,45,45.9,58,50.6
+167,Female,White,High,Public,College Prep,.06,.03,.67,10,54.8,54.1,47.1,49.8,50.6
+168,Female,White,Medium,Public,Standard,-.69,-1.13,.67,1,46.9,54.1,45.4,44.4,45.6
+169,Female,White,Medium,Public,College Prep,1.16,1.19,1,10,70.7,64.5,72.2,66.1,55.6
+170,Male,White,Low,Public,Standard,.3,-.59,1,16,54.8,46.3,45.5,58,60.5
+171,Female,White,Medium,Public,College Prep,.08,.59,1,9,57.4,56.7,53.9,60.7,60.5
+172,Male,White,Medium,Public,Technical/Vocational,-1.3,.03,1,7,54.8,41.1,40.2,44.4,40.6
+173,Female,White,Low,Public,Standard,-.61,.03,.33,11,44.2,54.1,40.3,52.6,40.6
+174,Male,White,Medium,Public,College Prep,-.16,.65,1,7,68,61.9,69.7,71.5,60.5
+175,Female,White,Medium,Public,College Prep,1.16,.65,1,1,65.4,67.1,63.1,55.3,70.5
+176,Female,White,High,Public,Standard,.91,.65,.33,11,54.8,48.9,41.9,52.6,55.6
+177,Male,White,Medium,Public,College Prep,.68,.03,.67,10,71.2,63.2,60.2,65.5,65.5
+178,Male,White,Medium,Public,College Prep,.06,-.29,.67,3,57.4,64.5,51.1,63.4,60.5
+179,Female,White,Medium,Public,College Prep,1.16,.03,1,6,70.7,67.1,61.2,60.7,70.5
+180,Female,White,Medium,Public,Technical/Vocational,-.59,.03,.33,14,33.6,54.1,41,41.7,50.6
+181,Female,White,High,Public,College Prep,1.13,.87,1,10,76,62.5,60,67.2,65.5
+182,Male,White,High,Public,College Prep,.42,.56,.67,17,70.7,56,62,67.7,63
+183,Female,White,Low,Public,College Prep,1.16,.63,.67,13,58.5,54.1,46.3,48.2,53.1
+184,Male,White,High,Public,Standard,1.16,-.81,.67,9,65.4,64.5,48,63.4,65.5
+185,Female,White,Medium,Public,Standard,.45,.56,1,5,52.1,43.7,41.9,47.1,45.6
+186,Male,White,Medium,Public,Technical/Vocational,-.16,-.53,.67,5,62.7,61.9,67,66.1,45.6
+187,Female,White,Low,Public,Standard,.68,-.6,.33,14,52.1,64.5,59.7,55.8,50.6
+188,Female,White,High,Public,College Prep,.06,.03,1,10,41.6,54.1,41.2,41.7,40.6
+189,Female,White,High,Public,College Prep,1.11,.9,.33,6,62.7,64.5,61.4,58,60.5
+190,Female,White,High,Public,Technical/Vocational,-.41,.03,.67,15,49.5,51.5,45.1,58,35.6
+191,Male,White,High,Public,College Prep,.49,.94,1,16,54.8,56.7,63.8,60.7,65.5
+192,Female,White,Medium,Public,College Prep,.67,.03,.67,9,52.1,56.7,51.1,55.3,55.6
+193,Female,White,Medium,Public,College Prep,.51,.03,1,14,54.8,54.1,66.4,41.7,55.6
+194,Male,White,High,Public,Standard,-.84,.34,0,10,41.6,46.3,59.6,63.4,65.5
+195,Male,White,High,Public,College Prep,.27,.03,1,10,60.1,51.5,48.1,52.6,55.6
+196,Female,White,Medium,Public,Technical/Vocational,.06,.03,1,1,68,61.9,55.5,49.8,50.6
+197,Female,White,Low,Public,Technical/Vocational,-1.15,-1.38,1,17,49.5,56.7,46.1,53.6,40.6
+198,Female,White,Medium,Public,College Prep,.66,-.47,.67,9,54.8,59.3,50.6,60.7,50.6
+199,Male,White,Low,Public,Technical/Vocational,-.82,.63,1,12,36.8,36.5,41.5,33.1,31.9
+200,Male,White,High,Public,College Prep,-.27,.88,1,13,52.1,64.5,60.6,60.7,45.6
+201,Female,White,Medium,Public,Technical/Vocational,.31,.63,1,1,38.9,56.7,46.3,58,55.6
+202,Male,White,Medium,Public,College Prep,1.13,-.6,.67,16,73.3,67.1,71.3,63.4,65.5
+203,Female,White,Medium,Public,College Prep,-.44,-.78,1,10,58,48.9,43.8,44.4,65.5
+204,Female,White,Medium,Public,College Prep,.44,.03,1,9,55.3,51.5,48,58,65.5
+205,Female,White,Low,Public,Technical/Vocational,-.9,-2.54,0,4,44.2,43.7,40.2,39.6,30.6
+206,Female,White,Low,Public,Technical/Vocational,-.18,.28,.33,4,44.2,51.5,46.1,47.1,50.6
+207,Female,White,Medium,Public,Standard,1.11,.9,.33,4,55.3,50.2,41.7,58.5,55.6
+208,Male,White,Low,Public,Standard,.05,-.6,0,8,57.4,51.5,40.6,46.6,56.8
+209,Female,White,Medium,Public,Standard,-.63,.44,.33,4,41.6,43.7,46.8,36.3,50.6
+210,Female,White,Medium,Public,Standard,.06,.03,1,9,54.8,59.3,46.2,47.1,65.5
+211,Female,White,Medium,Public,Standard,.71,-.29,.67,9,57.4,61.9,55.5,58,65.5
+212,Male,White,Medium,Public,Standard,.26,.03,1,2,57.4,51.5,55.3,60.7,60.5
+213,Female,White,Low,Public,Standard,.04,-.47,.67,1,33.6,59.3,44.7,47.1,45.6
+214,Female,White,Medium,Public,Technical/Vocational,-1.81,-.64,1,15,41.6,54.1,46.9,47.1,45.6
+215,Female,White,Medium,Public,College Prep,-.4,-.22,.67,9,52.1,38.5,36.1,44.4,45.6
+216,Female,White,High,Public,College Prep,.68,.03,1,13,65.4,67.1,64.5,60.7,70.5
+217,Female,White,Medium,Public,College Prep,0,-.42,.67,11,49.5,51.5,52.9,39,55.6
+218,Female,White,Medium,Public,Technical/Vocational,.46,.03,1,1,57.4,67.1,47.7,55.8,50.6
+219,Female,White,Medium,Public,Technical/Vocational,.1,.03,.33,6,49.5,56.7,48,47.1,60.5
+220,Female,White,Medium,Public,College Prep,.66,.34,1,4,56.9,49.5,49.5,50.9,58.1
+221,Male,White,Low,Public,Standard,-.36,-1.67,1,3,44.2,43.7,56.4,58,60.5
+222,Male,White,High,Public,Standard,.93,.34,1,10,46.9,54.1,54.6,55.3,50.6
+223,Male,White,Medium,Public,Technical/Vocational,.48,.03,1,10,60.1,46.3,51.4,52.6,60.5
+224,Female,White,Medium,Public,Standard,-1.15,-.47,.67,4,44.2,56.7,52.2,44.4,55.6
+225,Male,White,Medium,Public,College Prep,.89,.59,.67,6,60.6,56.7,70.5,58,65.5
+226,Male,White,High,Public,College Prep,.49,1.19,1,10,46.9,51.5,50.6,49.8,55.6
+227,Male,White,Medium,Public,College Prep,.44,.65,1,3,52.1,54.1,54.6,41.7,55.6
+228,Female,White,Medium,Public,College Prep,0,-.82,.67,10,54.8,67.1,63.8,49.8,50.6
+229,Female,White,Low,Public,College Prep,.91,.03,1,1,60.6,59.3,49.4,44.4,65.5
+230,Female,White,High,Public,Standard,-.2,1.19,1,15,41.6,46.9,41.7,47.1,60.5
+231,Female,White,Low,Public,Standard,0,-1.09,.67,9,62.7,51.5,45.9,47.1,45.6
+232,Female,White,Medium,Public,College Prep,.2,-.47,.33,11,38.9,54.1,53.7,52.6,40.6
+233,Female,White,Medium,Public,Technical/Vocational,.06,.03,.67,15,62.7,61.9,58.8,60.7,60.5
+234,Female,White,High,Public,College Prep,.96,.87,1,9,57.4,64.5,48,47.1,50.6
+235,Female,White,Medium,Public,College Prep,.2,-.55,.67,9,60.1,61.9,48.7,49.8,50.6
+236,Male,White,Medium,Public,College Prep,.08,.94,.67,10,73.3,61.9,60.5,71.5,55.6
+237,Male,White,Medium,Public,College Prep,1.36,-.8,.67,13,52.1,59.3,59.6,59.1,40.6
+238,Male,White,High,Public,College Prep,.46,.94,1,10,65.4,61.9,67.9,66.1,65.5
+239,Female,White,Low,Public,Technical/Vocational,-.84,-.18,0,1,33.6,46.3,38.4,36.3,45.6
+240,Male,White,Medium,Public,College Prep,.46,.03,.67,9,62.7,54.1,54.8,55.3,65.5
+241,Male,White,Low,Public,College Prep,.48,.69,.67,16,62.7,43,58.9,65,44.3
+242,Male,White,High,Public,College Prep,.75,1.19,1,10,68,61.9,52.2,60.7,65.5
+243,Female,White,Medium,Public,College Prep,-.4,.03,0,1,54.8,49.5,55.3,47.1,51.8
+244,Female,White,High,Public,College Prep,.71,.34,.67,9,68,61.9,64.5,68.8,60.5
+245,Male,White,Medium,Public,Standard,.46,.34,.67,9,62.2,56.7,51.9,54.7,58.1
+246,Female,White,Medium,Public,Technical/Vocational,.43,-.47,1,1,42.6,50.8,44.6,39,55.6
+247,Female,White,Medium,Public,Technical/Vocational,.46,-.47,0,9,49.5,61.9,41.4,55.3,30.6
+248,Male,White,Medium,Public,Standard,-.49,.03,.33,9,65.4,59.3,56.8,66.1,60.5
+249,Female,White,Medium,Public,College Prep,-1.56,.03,.33,15,62.7,54.1,53,55.3,45.6
+250,Male,White,Medium,Public,Standard,-.17,-.84,.67,15,62.7,56.7,54.3,58,50.6
+251,Male,White,High,Public,Standard,.66,.34,1,7,60.1,51.5,53,63.4,55.6
+252,Female,White,Low,Public,College Prep,.48,.32,1,14,49.5,54.1,38.7,49.8,50.6
+253,Male,White,Medium,Public,Standard,-.14,-.24,.67,9,54.8,38.5,57,52.6,45.6
+254,Female,White,High,Public,College Prep,.48,-.47,.33,9,52.1,61.9,55.5,60.7,60.5
+255,Male,White,Medium,Public,College Prep,-1.13,-.55,.33,12,44.2,46.9,45.5,39,50.6
+256,Male,White,High,Public,Standard,.06,.03,0,10,44.2,33.3,53.9,58,30.6
+257,Male,White,Medium,Public,Standard,.2,-.47,.33,3,38.9,38.5,53,52.6,50.6
+258,Female,White,Medium,Public,Technical/Vocational,-.64,-.51,.67,4,49.5,56.7,47.7,44.4,60.5
+259,Female,White,Medium,Public,Standard,.23,.44,1,2,49.5,51.5,45.5,49.8,55.6
+260,Female,White,Medium,Public,College Prep,.1,1.19,1,9,52.1,56.7,62.3,66.1,70.5
+261,Male,White,Medium,Public,Technical/Vocational,.28,.03,1,9,54.8,59.3,49.5,63.4,56.8
+262,Female,White,High,Public,College Prep,.52,.59,1,9,68,59.9,64,68.8,65.5
+263,Male,White,Medium,Public,College Prep,.46,.03,.67,8,54.8,64.5,58.6,55.3,60.5
+264,Female,White,Low,Public,Standard,-.8,.15,.33,15,41.6,41.1,39.5,47.1,60.5
+265,Female,White,Low,Public,Technical/Vocational,-1.33,-.6,.33,1,34.7,35.2,40.2,50.9,33.1
+266,Female,White,Low,Public,Standard,-1.33,.34,0,4,44.2,41.1,36.9,41.7,45.6
+267,Male,White,High,Public,College Prep,.68,.34,1,16,57.4,56.7,62.8,58,50.6
+268,Female,White,High,Public,College Prep,.46,-.55,.33,10,41.6,54.1,50.3,49.8,51.8
+269,Male,White,Medium,Public,Technical/Vocational,-.44,-.22,0,2,44.2,33.3,40.9,47.1,45.6
+270,Female,White,Medium,Public,College Prep,.23,-.76,1,9,65.4,64.5,59.6,66.1,60.5
+271,Female,White,High,Public,Technical/Vocational,.29,.03,1,4,49.5,48.9,56.2,47.1,45.6
+272,Female,White,Low,Public,Standard,.46,.03,.67,16,52.1,56.7,53,47.1,50.6
+273,Female,White,Medium,Public,Standard,.46,.03,.33,13,44.7,38.5,45.9,44.4,35.6
+274,Female,White,High,Public,Standard,.33,-.26,1,4,52.1,67.1,57,63.4,60.5
+275,Female,White,High,Public,Standard,-.44,-.47,1,9,54.8,65.1,66.1,49.8,60.5
+276,Male,White,Medium,Public,Technical/Vocational,-1.05,-.34,.67,1,44.2,38.5,41.4,42.3,35.6
+277,Female,White,High,Public,College Prep,1.11,.34,1,10,73.3,67.1,62.3,58,65.5
+278,Male,White,Low,Public,College Prep,.46,-.18,1,10,52.1,46.3,48.3,58,60.5
+279,Male,White,Low,Public,Technical/Vocational,.08,.94,.33,2,49.5,52.8,50.6,48.8,66.8
+280,Male,White,High,Public,College Prep,.31,.03,1,10,54.8,48.9,61.2,60.7,55.6
+281,Male,White,High,Public,Technical/Vocational,-.18,.03,.67,2,44.2,48.9,56.3,41.7,60.5
+282,Female,White,Medium,Public,Standard,.71,-.05,.67,1,52.7,47.6,52.2,45,50.6
+283,Male,White,High,Public,College Prep,.02,.13,.33,9,73.3,59.9,70.5,60.7,70.5
+284,Male,White,High,Public,College Prep,1.36,1.19,1,9,65.4,48.9,66.3,58,35.6
+285,Female,White,Medium,Public,College Prep,0,.03,.67,1,61.1,61.2,62.2,57.4,53.1
+286,Female,White,High,Public,College Prep,.52,.34,1,10,65.4,54.1,61.4,58,55.6
+287,Female,White,High,Public,College Prep,.66,.34,.67,9,54.8,56.7,61.9,63.4,55.6
+288,Male,White,Low,Public,Standard,.25,.65,0,3,49.5,48.9,50.4,63.4,55.6
+289,Male,White,High,Public,College Prep,-.38,.03,1,9,60.1,54.1,58,58,60.5
+290,Female,White,High,Public,Standard,.46,-1.11,.33,9,65.4,67.1,67,66.1,70.5
+291,Female,White,Medium,Public,Standard,.23,.03,1,13,65.4,56.7,65.4,58,70.5
+292,Female,White,Low,Public,Technical/Vocational,-1.09,-.9,.67,9,57.4,59.9,50.5,52.6,36.9
+293,Female,White,Medium,Public,College Prep,.71,-.55,1,9,60.1,59.3,64.3,60.7,65.5
+294,Male,White,Low,Public,College Prep,-.82,-.76,0,1,57.4,43.7,59.6,52.6,50.6
+295,Female,White,High,Public,Standard,1.36,.03,.67,14,46.9,59.3,56.3,66.1,60.5
+296,Female,White,High,Public,Technical/Vocational,-.14,-.86,0,9,38.9,46.3,50.1,36.3,45.6
+297,Female,White,High,Public,College Prep,.46,1.19,.67,10,65.9,64.5,61.8,60.7,60.5
+298,Female,White,High,Public,College Prep,.06,.32,1,1,62.7,64.5,70.5,68.8,70.5
+299,Male,White,High,Public,Technical/Vocational,-.51,-1.98,0,17,60.1,57.3,58.8,58,50.6
+300,Male,White,High,Public,College Prep,.68,.03,.33,9,73.3,64.5,64,60.7,65.5
+301,Female,White,High,Public,College Prep,.75,1.19,1,9,60.1,61.9,67.1,49.8,55.6
+302,Male,White,Medium,Public,College Prep,.69,.05,.67,10,60.1,59.3,57.9,40.6,65.5
+303,Female,White,Low,Public,Standard,-.84,-.24,1,4,54.8,64.5,44.5,52.6,50.6
+304,Male,White,High,Public,College Prep,.01,.32,0,16,52.1,41.1,50.6,52.6,55.6
+305,Female,White,Medium,Public,Standard,-.16,-.45,.67,4,49.5,54.1,61.9,52.6,50.6
+306,Female,White,High,Public,College Prep,-.6,.28,1,9,33.6,41.1,42.9,41.7,50.6
+307,Male,White,High,Public,College Prep,.46,.34,1,9,76,52.1,64.1,63.9,60.5
+308,Male,White,Low,Public,College Prep,0,.65,.67,7,46.9,33.3,50.4,47.1,55.6
+309,Female,White,High,Public,Standard,.32,.9,.67,10,33.6,51.5,41.9,49.8,50.6
+310,Male,White,High,Public,College Prep,.52,.65,.33,2,54.3,62.5,56.6,54.7,45.6
+311,Male,White,High,Public,Technical/Vocational,.46,.63,.67,2,46.9,52.8,49.3,53.1,35.6
+312,Female,White,Medium,Public,College Prep,.66,.03,1,1,52.1,56.7,41.9,52.6,60.5
+313,Female,White,Medium,Public,College Prep,.46,-.47,.67,10,50,41.1,45.1,44.4,55.6
+314,Male,White,Medium,Public,Standard,.26,.03,1,2,49.5,35.9,47.8,52.6,35.6
+315,Female,White,High,Public,College Prep,.91,-.47,.67,10,57.4,59.3,57.2,59.1,65.5
+316,Female,White,Medium,Public,Technical/Vocational,1.36,.87,1,4,36.3,43.7,37.2,41.7,40.6
+317,Female,White,Medium,Public,College Prep,.02,-1.05,.33,9,60.1,64.5,61.2,60.7,50.6
+318,Female,White,Low,Public,Standard,-.44,-.47,.33,9,38.9,46.3,41.9,41.7,45.6
+319,Male,White,Low,Public,Technical/Vocational,-.44,-.55,.33,4,46.9,38.5,47.1,41.7,25.7
+320,Male,White,Low,Public,Technical/Vocational,.22,.03,.67,16,60.1,41.7,52,52.6,50.6
+321,Male,White,Low,Public,Technical/Vocational,-.91,-.59,.67,8,44.2,39.1,46.3,36.3,40.6
+322,Male,White,Medium,Public,Standard,-.84,-.57,.33,2,33.6,33.3,41,36.3,35.6
+323,Male,White,Medium,Public,Technical/Vocational,.66,.34,.33,2,33.6,38.5,42.9,47.1,45.6
+324,Female,White,High,Public,College Prep,.94,.03,1,10,68,56.7,59.6,58,25.7
+325,Female,White,Medium,Public,Standard,-.65,.03,.33,9,41.6,39.1,42.3,41.7,40.6
+326,Male,White,Low,Public,Standard,1.13,.03,.33,5,45.8,41.7,43.1,53.6,36.9
+327,Female,White,Low,Public,Technical/Vocational,1.36,.63,1,1,68,64.5,58.9,63.4,45.6
+328,Female,White,Medium,Public,Technical/Vocational,.22,.03,.33,1,52.1,54.7,49.5,53.6,60.5
+329,Male,White,High,Public,College Prep,-.43,.03,1,9,52.1,44.3,53.1,58,45.6
+330,Male,White,Low,Public,Standard,.28,-.06,.33,2,44.2,30.7,35.3,47.1,45.6
+331,Female,White,Low,Public,Standard,-1.99,.03,0,9,39.4,54.1,38.7,47.1,35.6
+332,Male,White,Medium,Public,College Prep,-.4,.03,0,10,44.2,33.3,47.8,44.4,45.6
+333,Male,White,Medium,Public,Standard,-.03,-.16,0,6,33.6,43.7,42.6,47.1,35.6
+334,Female,White,Medium,Public,College Prep,.08,-.24,.33,10,52.1,59.3,48,55.3,60.5
+335,Female,White,Medium,Public,Standard,.46,.34,.67,9,62.7,61.9,52.9,44.4,40.6
+336,Male,White,High,Public,Standard,.06,.03,.67,11,41.6,39.1,56.3,45,50.6
+337,Male,White,Medium,Public,College Prep,-.39,-.28,.67,9,44.2,51.5,51.1,63.4,60.5
+338,Female,White,Low,Public,Technical/Vocational,.26,-.26,0,6,49.5,56.7,43.8,47.1,40.6
+339,Male,White,Medium,Public,College Prep,.46,.03,1,7,70.7,56.7,51.3,71.5,55.6
+340,Male,White,High,Public,College Prep,.47,.01,1,10,68,64.5,61.5,55.3,60.5
+341,Female,White,High,Public,College Prep,.71,.03,1,14,68,61.9,72.2,66.1,56.8
+342,Female,White,Medium,Public,College Prep,-.16,-.47,.67,9,36.3,61.9,52.2,39,45.6
+343,Male,White,Low,Public,Standard,-.37,-.47,.67,9,41.6,48.9,42.6,49.8,55.6
+344,Female,White,Low,Public,Standard,.27,-2.52,.33,8,38.9,32,35.3,46.6,51.8
+345,Male,White,Medium,Public,College Prep,.71,.34,.67,9,52.1,41.1,51.3,60.7,65.5
+346,Female,White,Medium,Public,College Prep,.46,.03,.67,9,57.4,59.3,53.9,49.8,55.6
+347,Female,White,High,Public,College Prep,.28,.03,.67,9,62.7,67.1,65.6,61.8,65.5
+348,Female,White,Medium,Public,Standard,.46,.03,1,10,65.4,51.5,61.4,60.7,50.6
+349,Male,White,High,Public,Technical/Vocational,-1.5,.03,.67,9,33.6,48.9,38.6,42.3,55.6
+350,Male,White,High,Public,College Prep,-.41,.28,.33,16,46.9,35.9,42.6,58,55.6
+351,Female,White,Medium,Public,College Prep,.32,.9,.67,1,52.1,59.3,58.1,47.1,45.6
+352,Female,White,Medium,Public,Standard,.32,.65,1,9,54.8,61.9,58.1,58,60.5
+353,Male,White,Medium,Public,College Prep,-.21,-1.13,0,2,38.9,41.1,43.6,55.3,45.6
+354,Female,White,Medium,Public,College Prep,-.6,-1.18,.67,1,54.8,59.3,68,49.3,65.5
+355,Female,White,Low,Public,Standard,-.4,-.89,.33,8,41.6,56.7,45,50.4,43.1
+356,Female,White,Low,Public,Technical/Vocational,-.89,-1.29,.33,9,60.1,64.5,41,52.6,50.6
+357,Female,White,Medium,Public,Technical/Vocational,.06,-.28,1,1,65.9,64.5,54.6,60.7,60.5
+358,Female,White,High,Public,College Prep,.45,.03,1,4,62.7,51.5,54.4,49.8,50.6
+359,Male,White,Medium,Public,College Prep,.22,.32,1,14,49.5,56.7,62.8,49.8,70.5
+360,Female,White,High,Public,College Prep,.71,.28,1,11,60.1,64.5,63,68.8,60.5
+361,Female,White,Medium,Public,Technical/Vocational,.91,.34,1,1,68,59.3,53,63.4,60.5
+362,Male,White,Medium,Public,Standard,0,.65,1,6,54.8,64.5,51.1,49.8,55.6
+363,Male,White,Low,Public,Technical/Vocational,-.38,.03,1,8,38.9,41.7,37.7,44.4,45.6
+364,Female,White,Medium,Public,College Prep,-.16,-2.58,1,10,52.1,59.3,58.1,52.6,65.5
+365,Female,White,Low,Public,Standard,-1.1,-.28,.67,4,38.9,41.1,45.9,47.1,45.6
+366,Female,White,Medium,Public,Standard,.93,.03,1,10,65.9,67.1,70.5,52.6,65.5
+367,Male,White,High,Public,Standard,.7,-.16,.33,9,68,59.3,55.7,63.4,65.5
+368,Male,White,Medium,Public,Technical/Vocational,-.45,-.26,0,2,38.9,35.9,44.2,55.3,55.6
+369,Female,White,Medium,Public,Technical/Vocational,.02,-2.03,.67,1,38.9,59.3,39.5,39,50.6
+370,Female,White,Low,Public,Technical/Vocational,-.19,-2.58,0,1,41.6,54.1,41,41.7,40.6
+371,Male,White,Medium,Public,Standard,.91,-.47,.67,8,44.2,41.1,50.5,58,40.6
+372,Male,White,Medium,Public,Standard,.09,-1.42,.33,11,52.1,61.9,59.6,58,55.6
+373,Female,White,Low,Public,College Prep,0,.65,1,16,68,64.5,58.3,58.5,55.6
+374,Male,White,Low,Public,College Prep,.7,-.16,1,10,49.5,61.9,50.9,46.1,66.8
+375,Male,White,Low,Public,Standard,-.6,.56,.33,2,36.3,43.7,44.3,47.1,30.6
+376,Male,White,Medium,Public,Standard,-1.33,.03,.67,2,41.6,30.7,56.9,47.1,50.6
+377,Female,White,Medium,Public,College Prep,-.16,.03,1,8,57.4,57.3,64,58,65.5
+378,Male,White,High,Public,College Prep,.46,.65,1,9,68,54.1,63,63.4,60.5
+379,Male,White,High,Public,College Prep,-.33,.38,.67,6,62.7,59.3,56.5,55.3,55.6
+380,Female,White,High,Public,Standard,.25,.03,.67,4,49.5,51.5,55.5,44.4,55.6
+381,Female,White,Medium,Public,College Prep,.22,-.57,1,1,61.1,67.1,64.5,50.4,55.6
+382,Male,White,High,Public,College Prep,.22,1.19,.33,13,38.9,33.3,37.7,47.1,40.6
+383,Female,White,Medium,Public,Standard,.27,.03,.67,1,46.9,56.7,63.8,55.3,55.6
+384,Male,White,Medium,Public,Technical/Vocational,-2.23,1.19,.33,5,44.2,38.5,41.2,49.8,45.6
+385,Female,White,Low,Public,Standard,-.38,.37,.67,4,44.2,43.7,46.1,47.1,50.6
+386,Female,White,Medium,Public,College Prep,.06,.65,.33,11,47.4,64.5,53.9,55.8,50.6
+387,Female,White,High,Public,College Prep,.89,.88,1,9,52.1,59.3,64,61.2,55.6
+388,Female,White,High,Public,Standard,1.13,.03,.33,9,43.2,54.1,54.8,55.3,45.6
+389,Female,White,Low,Public,Standard,-1.02,-1.67,.67,5,45.3,43,52.3,60.7,56.8
+390,Female,White,High,Public,College Prep,.45,.03,.67,9,60.1,61.9,51.9,53.1,58.1
+391,Female,White,High,Public,College Prep,.06,.65,0,9,65.4,59.3,56.8,46.1,65.5
+392,Male,White,Low,Public,Technical/Vocational,-1.74,.61,.33,17,45.8,34.6,37.9,39,45.6
+393,Male,White,Medium,Public,Technical/Vocational,-1.3,.13,.33,11,44.2,41.1,51.8,47.1,40.6
+394,Male,White,Medium,Public,College Prep,.46,.03,0,8,73.3,61.9,73.1,68.8,65.5
+395,Female,White,Medium,Public,College Prep,.55,-.24,.67,13,46.9,56.7,54.6,47.1,55.6
+396,Female,White,Medium,Public,Technical/Vocational,-.68,.03,.33,17,38.9,38.5,41.2,39,35.6
+397,Male,White,Medium,Public,Technical/Vocational,.25,-.26,.33,2,49.5,30.7,40.3,33.6,30.6
+398,Female,White,Low,Public,Technical/Vocational,.96,.94,.67,9,46.9,50.2,46.5,47.1,51.8
+399,Female,White,Low,Public,Standard,-.24,.03,.67,9,45.8,54.1,49.5,47.1,55.6
+400,Male,White,Low,Public,Standard,-.4,.65,.67,5,44.2,43.7,38.6,33.6,45.6
+401,Female,White,Low,Public,College Prep,-.4,.03,1,15,44.2,54.1,59.3,58,50.6
+402,Female,White,Medium,Public,College Prep,.93,.65,1,6,62.7,59.3,71.3,68.8,60.5
+403,Female,White,Low,Public,College Prep,0,.34,1,15,62.7,59.9,65.4,53.6,65.5
+404,Female,White,Medium,Public,Standard,-.38,-.47,.67,4,62.7,43.7,44.7,52.6,41.9
+405,Male,White,Medium,Public,College Prep,.2,.56,.67,12,60.1,52.8,51.5,58,50.6
+406,Male,White,Medium,Public,College Prep,.73,.03,1,16,65.4,59.3,69.6,63.4,50.6
+407,Female,White,Medium,Public,Technical/Vocational,.06,.03,1,4,43.2,47.6,45.6,47.1,45.6
+408,Male,White,High,Public,College Prep,-.45,-.6,.67,10,52.1,59.9,49.5,48.8,60.5
+409,Female,White,High,Public,College Prep,1.13,.03,.67,9,62.7,64.5,64.5,52.6,60.5
+410,Female,White,Low,Public,College Prep,-.18,-1.09,.67,15,62.7,56.7,58.8,71.5,60.5
+411,Male,White,High,Public,College Prep,.32,.28,.67,16,62.7,63.2,68.9,74.2,70.5
+412,Female,White,Medium,Public,Technical/Vocational,.66,-.6,0,15,42.6,56.7,40.3,49.8,50.6
+413,Female,White,Medium,Public,Standard,.51,.03,.33,6,60.1,51.5,53.9,63.4,50.6
+414,Female,White,Medium,Public,Standard,.08,.03,1,13,54.8,67.1,47.4,49.8,65.5
+415,Female,White,Medium,Public,College Prep,.46,-.86,1,14,68,59.3,60.5,55.3,70.5
+416,Male,White,Low,Public,College Prep,1.11,-.09,0,9,44.2,48.9,48,49.8,55.6
+417,Female,White,Medium,Public,Standard,.07,.34,1,9,65.4,59.3,51.2,60.7,55.6
+418,Male,White,Medium,Public,Technical/Vocational,-.89,.56,.33,2,44.2,41.1,40.3,49.8,25.7
+419,Male,White,Medium,Public,Technical/Vocational,-.19,.03,.33,2,54.8,51.5,42.8,60.7,50.6
+420,Male,White,Low,Public,College Prep,-.27,.94,0,17,44.7,54.1,50.4,45,50.6
+421,Male,White,High,Public,Technical/Vocational,-.4,-1.09,.67,7,62.7,43.7,47.1,52.6,55.6
+422,Female,White,Medium,Public,College Prep,0,.03,.67,9,62.7,64.5,38.3,55.8,55.6
+423,Male,White,Medium,Public,College Prep,.46,-.47,.67,10,68,64.5,70.6,68.8,59.3
+424,Female,White,Medium,Public,Technical/Vocational,.75,.34,1,9,47.4,41.7,51.6,38.5,50.6
+425,Female,White,Low,Public,Standard,1.36,.65,1,15,46.9,51.5,57,49.8,40.6
+426,Male,White,Low,Public,College Prep,.68,.87,1,10,54.8,56.7,56.9,58,70.5
+427,Male,White,Medium,Public,Technical/Vocational,.05,-.88,.67,2,62.7,63.2,74.6,71.5,65.5
+428,Female,White,Medium,Public,Technical/Vocational,-.84,.03,0,9,36.3,59.3,47.7,39,55.6
+429,Male,White,High,Public,Technical/Vocational,1.13,.56,1,6,60.1,48.9,50.4,55.3,65.5
+430,Male,White,High,Public,Standard,1.13,.63,.67,10,60.1,64.5,57.9,60.7,65.5
+431,Female,White,Medium,Public,Standard,.55,-.6,1,1,54.8,54.1,51.3,41.7,45.6
+432,Male,White,High,Public,Standard,.06,.03,1,9,44.2,54.1,51.4,39,45.6
+433,Female,White,Medium,Public,Technical/Vocational,-.64,.03,1,4,41.6,46.3,38.4,36.3,45.6
+434,Female,White,High,Public,College Prep,.48,.03,1,4,65.4,61.9,60.4,63.4,60.5
+435,Female,White,Low,Public,Standard,-.19,-.85,0,15,54.8,60.6,55.5,58,45.6
+436,Male,White,High,Public,College Prep,.2,-2.54,0,16,54.8,61.9,63.6,63.4,65.5
+437,Female,White,Medium,Public,Technical/Vocational,-.6,-.26,.67,4,49.5,41.1,38.4,52.6,35.6
+438,Male,White,Medium,Public,College Prep,-1.33,.03,1,16,36.3,28.1,53.7,33.6,25.7
+439,Female,White,Low,Public,College Prep,.68,.88,1,9,46.9,61.9,53,52.6,60.5
+440,Female,White,High,Public,College Prep,1.36,.94,1,4,52.1,48.9,51.3,41.7,45.6
+441,Female,White,Medium,Public,Standard,.89,.65,.67,9,68,48.9,56.3,63.4,55.6
+442,Female,White,Medium,Public,Technical/Vocational,-.14,.13,.67,9,41.6,56.7,51.3,47.1,60.5
+443,Male,White,Medium,Public,Technical/Vocational,-.43,-1.22,0,5,41.6,46.9,55.5,44.4,40.6
+444,Male,White,Medium,Public,College Prep,.04,.03,.67,9,65.4,51.5,61.2,68.8,60.5
+445,Male,White,Low,Public,Standard,.44,-.16,.67,9,62.7,48.9,48.8,66.1,45.6
+446,Male,White,Low,Public,College Prep,.65,-.3,1,10,60.1,61.9,74.6,58,60.5
+447,Male,White,Medium,Public,Technical/Vocational,-1.33,.65,0,2,40.5,38.5,47.1,44.4,30.6
+448,Male,White,Medium,Public,Technical/Vocational,.68,1.19,.33,14,41.6,41.1,57.2,71.5,30.6
+449,Male,White,Medium,Public,Technical/Vocational,.1,.03,0,3,62.7,48.9,42.1,66.1,70.5
+450,Female,White,High,Public,College Prep,.5,.03,.67,17,68,59.3,58.8,66.1,65.5
+451,Female,White,Medium,Public,Technical/Vocational,.02,-.32,1,4,46.9,46.3,52,47.7,45.6
+452,Female,White,Medium,Public,Standard,.06,.03,1,17,41.6,46.3,46.2,39,45.6
+453,Female,White,Medium,Public,Standard,-.83,.65,.33,4,44.2,59.3,55.5,36.3,55.6
+454,Female,White,High,Public,College Prep,.91,.15,0,9,54.8,56.7,55.5,58,60.5
+455,Female,White,Low,Public,Standard,.06,.59,1,1,52.1,51.5,45.4,39,50.6
+456,Male,White,Medium,Public,Technical/Vocational,-1.57,.65,.33,6,52.1,56.7,45.2,55.3,50.6
+457,Male,White,Medium,Public,Technical/Vocational,-1.33,.03,.33,5,38.9,30.7,40.4,39,50.6
+458,Male,White,Medium,Public,College Prep,.46,.65,1,16,49.5,48.9,60.5,55.3,55.6
+459,Female,White,Medium,Public,Standard,.03,.03,1,11,41.6,43,44.5,39,50.6
+460,Male,White,High,Public,College Prep,-.93,-.22,.67,10,65.4,64.5,65.5,60.7,65.5
+461,Male,White,Low,Public,College Prep,.24,-.43,.33,16,70.7,43.7,58.8,66.1,60.5
+462,Male,White,Medium,Public,Standard,.33,.28,.67,9,52.1,46.3,48.1,55.3,40.6
+463,Male,White,Medium,Public,Standard,-.11,.25,1,9,44.2,44.3,45.6,39,50.6
+464,Female,White,Medium,Public,College Prep,.94,-.3,1,10,60.1,67.1,52.4,55.3,50.6
+465,Male,White,High,Public,Standard,.75,-.49,.33,16,41.6,41.1,41.2,44.4,35.6
+466,Female,White,Medium,Public,College Prep,.3,-.6,1,9,49.5,59.3,53.1,60.7,60.5
+467,Male,White,Medium,Public,Standard,1.13,.03,1,6,38.9,54.1,47.5,49.8,40.6
+468,Male,White,High,Public,Standard,-.16,.03,.33,11,44.2,59.3,49.5,55.3,45.6
+469,Male,White,Medium,Public,Standard,.46,.65,1,16,68,59.3,57.9,74.2,65.5
+470,Female,White,High,Public,College Prep,1.36,.94,1,10,57.4,64.5,49.9,55.3,55.6
+471,Female,White,High,Public,College Prep,.46,.32,.67,16,49.5,54.1,47.8,60.7,50.6
+472,Female,White,Medium,Public,Standard,-.4,-.26,.33,15,52.1,54.1,55.3,52.6,50.6
+473,Female,White,Medium,Public,Technical/Vocational,.06,.28,1,13,60.1,59.3,56.2,60.7,60.5
+474,Female,White,Low,Public,Technical/Vocational,-.61,.36,0,4,44.2,48.9,46.1,47.1,55.6
+475,Male,White,High,Public,College Prep,.71,.03,1,10,54.8,61.2,53.7,48.8,60.5
+476,Female,White,High,Public,Standard,.23,-.26,0,9,52.1,61.9,56.3,58,55.6
+477,Female,White,Medium,Public,College Prep,.46,-.28,1,9,57.4,56.7,56.4,63.4,60.5
+478,Female,White,Medium,Public,College Prep,.67,-.59,.67,9,54.8,64.5,55.3,49.8,60.5
+479,Female,White,Medium,Public,College Prep,.46,.03,1,10,60.1,64.5,56.3,63.4,60.5
+480,Male,White,Low,Public,Technical/Vocational,-.88,-.29,.33,8,44.2,54.1,41,49.8,45.6
+481,Female,White,Low,Public,College Prep,.89,.34,.33,10,57.4,61.9,72.2,60.7,60.5
+482,Female,White,Medium,Public,Technical/Vocational,.06,-1.07,0,9,38.9,48.9,45.2,44.4,50.6
+483,Female,White,Low,Public,Technical/Vocational,.06,-.6,.67,9,62.7,56,57.3,60.7,56.8
+484,Female,White,Medium,Public,Technical/Vocational,-.22,-2.27,0,1,57.4,51.5,40.3,60.7,55.6
+485,Female,White,Medium,Public,College Prep,.71,.34,0,2,62.7,64.5,57.4,60.7,70.5
+486,Female,White,Medium,Public,College Prep,.53,.81,.67,9,54.8,59.3,61.4,47.1,55.6
+487,Female,White,Low,Public,College Prep,-.47,-.47,0,1,52.1,57.3,63.7,58,55.6
+488,Male,White,High,Public,Technical/Vocational,.43,-.05,.67,12,54.8,45.6,51.8,60.7,45.6
+489,Female,White,Medium,Public,College Prep,-.44,-1.13,1,9,54.8,61.9,69.6,60.7,55.6
+490,Male,White,Medium,Public,Technical/Vocational,-1.28,.34,.33,9,31,35.9,46.1,39,45.6
+491,Female,White,Medium,Public,Standard,-.14,.56,1,4,54.8,61.9,54.6,47.1,45.6
+492,Female,White,Low,Public,College Prep,-.14,-1.05,1,9,70.7,65.1,66.4,63.4,60.5
+493,Male,White,Low,Public,Technical/Vocational,-.86,.28,1,3,36.3,48.9,54.4,60.7,35.6
+494,Female,White,Low,Public,Technical/Vocational,.3,.03,.67,1,36.8,59.3,40.7,49.8,35.6
+495,Male,White,Medium,Public,Standard,.68,.03,1,10,65.4,64.5,51.3,66.1,65.5
+496,Female,White,Medium,Public,College Prep,.23,.03,1,9,52.1,59.3,52.9,60.7,50.6
+497,Female,White,Medium,Public,Technical/Vocational,0,-.18,0,9,62.7,59.3,55.5,45.5,46.8
+498,Male,White,Medium,Public,Technical/Vocational,.26,.03,1,8,62.7,59.3,53.2,63.4,55.6
+499,Male,White,Medium,Public,Standard,-1.58,-.26,.33,7,62.7,48.9,35.3,66.1,40.6
+500,Female,White,Low,Public,Technical/Vocational,.06,.28,1,3,65.9,63.2,50.3,60.1,55.6
+501,Male,White,Medium,Public,College Prep,.91,.59,1,10,65.4,67.1,67.1,66.1,61.8
+502,Male,White,Medium,Public,College Prep,.28,.32,1,10,52.1,54.1,56.5,55.3,50.6
+503,Male,White,High,Public,College Prep,-.19,-.73,.67,10,73.3,60.6,64.7,66.1,65.5
+504,Male,White,Medium,Public,College Prep,1.36,.63,1,10,62.7,61.9,68.6,68.8,55.6
+505,Male,White,Low,Public,Standard,.71,1.19,.33,3,54.8,59.3,62.5,68.8,45.6
+506,Female,White,Medium,Public,College Prep,.25,-.47,.33,10,76,67.1,72.2,66.1,65.5
+507,Male,White,Medium,Public,Technical/Vocational,-.4,-.76,.67,7,52.1,35.9,50.3,47.1,50.6
+508,Male,White,High,Public,College Prep,.68,-.47,.33,7,46.9,61.9,60.5,68.8,65.5
+509,Male,White,Medium,Public,Technical/Vocational,-.41,.34,.67,16,52.1,38.5,57.9,52.6,50.6
+510,Male,White,Medium,Public,Technical/Vocational,-.86,1.19,.33,8,33.6,28.1,31.8,39.6,35.6
+511,Male,White,Medium,Public,College Prep,-.44,1.19,1,2,60.1,54.1,59.6,55.3,65.5
+512,Male,White,Low,Public,Technical/Vocational,-1.1,.03,1,8,38.9,38.5,42.8,41.7,40.6
+513,Male,White,High,Public,College Prep,.06,.32,.67,12,49.5,43.7,55.5,68.8,65.5
+514,Male,White,Medium,Public,College Prep,.06,.03,0,11,46.9,51.5,57.2,52.6,60.5
+515,Male,White,Medium,Public,College Prep,.68,-.26,1,10,62.7,61.9,56.2,47.1,45.6
+516,Male,White,Medium,Public,College Prep,.66,.03,.33,6,65.4,59.3,67.1,66.1,65.5
+517,Female,White,Low,Public,Standard,.26,.87,1,3,49.5,61.9,61.4,63.4,50.6
+518,Male,White,Medium,Public,Standard,.06,.03,1,2,54.8,41.1,42.8,47.1,40.6
+519,Male,White,Medium,Private,College Prep,.32,1.19,1,9,57.4,61.9,64,55.8,55.6
+520,Male,White,Medium,Private,College Prep,.06,.03,.33,9,68,59.3,71.3,66.1,55.6
+521,Male,White,High,Private,College Prep,.46,.34,1,16,52.1,46.3,50.4,52.6,50.6
+522,Male,White,Medium,Private,College Prep,0,.65,1,7,52.1,61.9,62.1,58,60.5
+523,Female,White,High,Private,Standard,.68,.32,1,15,36.3,56.7,41.9,49.8,40.6
+524,Female,White,Medium,Private,College Prep,-.66,-1.07,.67,1,49.5,61.9,60.4,47.1,50.6
+525,Female,White,High,Private,College Prep,.48,-.82,.33,9,62.7,64.5,58.2,61.8,61.8
+526,Male,White,Medium,Private,College Prep,.71,.03,.33,11,46.9,46.9,41,41.7,50.6
+527,Female,White,Medium,Private,College Prep,1.36,-1.18,1,9,62.7,61.9,63.1,60.7,60.5
+528,Female,White,High,Private,College Prep,-.19,1.19,1,9,60.1,61.9,54.6,60.7,65.5
+529,Male,White,Medium,Private,College Prep,.55,.63,1,16,54.8,59.3,62.3,58,50.6
+530,Female,White,High,Private,College Prep,.26,.94,1,10,60.1,59.3,51.8,53.1,55.6
+531,Female,White,High,Private,College Prep,.68,.06,.67,1,49.5,51.5,41.2,41.7,45.6
+532,Male,White,Medium,Private,Technical/Vocational,0,.34,.33,2,46.9,56.7,57.2,58,45.6
+533,Female,White,Low,Private,College Prep,-.17,.03,.67,15,44.2,59.3,45.7,55.3,50.6
+534,Male,White,Medium,Private,College Prep,.06,.56,1,10,49.5,56.7,46.2,55.3,50.6
+535,Female,White,Medium,Private,College Prep,.52,.34,1,10,46.9,64.5,59.6,49.8,55.6
+536,Female,White,High,Private,College Prep,.91,-1.67,.33,9,57.4,54.1,54.8,60.7,60.5
+537,Male,White,Medium,Private,Standard,-.4,.65,0,10,52.1,46.3,51.3,58,55.6
+538,Female,White,High,Private,College Prep,.46,-.22,1,10,70.7,64.5,68.7,58,70.5
+539,Female,White,Medium,Private,College Prep,-.4,-1.34,1,8,57.4,61.9,55.5,49.8,55.6
+540,Male,White,Medium,Private,College Prep,.71,1.19,.67,2,54.8,48.9,52.4,58,60.5
+541,Male,White,Medium,Private,College Prep,-.14,.34,.33,9,49.5,46.3,44.8,58,60.5
+542,Female,White,Medium,Private,College Prep,.52,.03,1,14,46.9,51.5,53.7,41.7,40.6
+543,Female,White,High,Private,College Prep,-.47,.28,1,10,65.4,61.9,47.1,60.7,60.5
+544,Female,White,Medium,Private,College Prep,.96,.03,.67,11,44.2,51.5,43.2,44.4,50.6
+545,Female,White,Medium,Private,College Prep,.91,-.47,1,9,46.9,64.5,55.8,61.8,60.5
+546,Female,White,High,Private,College Prep,.02,-.14,0,9,60.1,64.5,67,58.5,66.8
+547,Male,White,Medium,Private,College Prep,.47,.03,.67,13,62.7,59.3,48.8,55.3,70.5
+548,Female,White,Medium,Private,College Prep,.47,.34,.67,10,33.6,43,41,49.8,35.6
+549,Female,White,High,Private,College Prep,.46,.03,1,9,41.6,64.5,47.1,53.1,60.5
+550,Female,White,Medium,Private,Technical/Vocational,1.13,.88,.33,1,49.5,51.5,52.7,55.3,55.6
+551,Male,White,Medium,Private,College Prep,.96,.63,1,12,65.4,64.5,70.3,66.1,65.5
+552,Female,White,Medium,Private,College Prep,.5,-.22,1,9,54.8,61.9,61.3,60.7,50.6
+553,Male,White,Medium,Private,College Prep,.71,.28,.67,16,62.7,56.7,54.7,58,40.6
+554,Female,White,Low,Private,College Prep,-.14,-.6,.33,15,44.2,48.9,54.3,49.8,45.6
+555,Male,White,High,Private,College Prep,.06,1.19,1,11,65.4,64.5,67.9,63.4,55.6
+556,Female,White,Medium,Private,College Prep,.87,.87,.67,10,57.4,61.9,62.8,55.3,40.6
+557,Female,White,Medium,Private,College Prep,1.16,1.19,1,16,60.1,59.3,55.3,58,45.6
+558,Female,White,Medium,Private,Technical/Vocational,.46,.56,.67,9,44.2,54.1,52.2,44.4,45.6
+559,Female,White,Medium,Private,Standard,.27,.03,.67,4,57.4,41.1,57,55.3,51.8
+560,Female,White,Low,Private,College Prep,-.19,-1.73,1,1,44.7,47.6,50.3,39,50.6
+561,Female,White,High,Private,College Prep,.68,.03,1,6,44.2,48.9,46.2,47.7,45.6
+562,Female,White,High,Private,College Prep,.23,.03,1,1,62.7,61.9,55.5,55.3,60.5
+563,Female,White,High,Private,College Prep,.91,.03,1,9,57.4,59.3,55.5,55.3,50.6
+564,Male,White,High,Private,College Prep,.32,-.88,.33,9,57.4,54.1,42.2,44.4,55.6
+565,Male,White,Medium,Private,College Prep,.71,.03,.33,5,46.9,59.3,63,52.6,45.6
+566,Male,White,High,Private,College Prep,1.11,.34,1,10,65.4,64.5,64.1,66.1,70.5
+567,Female,White,Medium,Private,College Prep,.26,-.57,1,10,41.6,58.6,54.6,55.3,60.5
+568,Female,White,Medium,Private,College Prep,0,.34,.33,9,46.9,59.3,53.7,58,45.6
+569,Male,White,Low,Private,College Prep,.2,-.47,.67,2,56.4,49.5,51.9,47.1,48.1
+570,Female,White,Medium,Private,College Prep,-.84,-2.6,.33,15,44.2,64.5,53,55.3,60.5
+571,Female,White,High,Private,College Prep,1.16,.09,1,9,46.9,52.1,42.5,47.7,60.5
+572,Male,White,Medium,Private,Technical/Vocational,.23,.15,.33,2,49.5,51.5,48,52.6,50.6
+573,Female,White,Low,Private,Standard,-.23,.69,.67,15,46.9,61.9,48,39,50.6
+574,Male,White,High,Private,College Prep,.03,.56,.67,2,65.4,67.1,63,66.1,70.5
+575,Female,White,Medium,Private,Standard,.68,.03,0,10,44.2,35.9,43.6,47.1,40.6
+576,Female,White,Medium,Private,Technical/Vocational,.43,-1.09,.67,14,63.3,64.5,52.1,58,65.5
+577,Female,White,Medium,Private,College Prep,.47,.34,.67,16,44.2,48.9,48,39,50.6
+578,Female,White,Medium,Private,Technical/Vocational,-.59,.28,1,14,46.9,51.5,48.5,49.8,50.6
+579,Female,White,Low,Private,Technical/Vocational,-.38,.03,1,9,45.3,38.5,43.5,40.1,45.6
+580,Female,White,High,Private,College Prep,.73,.03,1,9,62.7,62.5,68.9,60.7,60.5
+581,Male,White,Medium,Private,Technical/Vocational,-.66,-.47,1,9,52.7,41.1,40.2,58,60.5
+582,Male,White,High,Private,College Prep,.1,-.16,.33,9,49.5,59.3,51,47.1,45.6
+583,Male,White,Medium,Private,Standard,-1.33,.03,.67,16,57.4,56.7,59.8,58,55.6
+584,Male,White,High,Private,College Prep,.22,1.19,1,11,57.4,54.1,48.8,55.3,40.6
+585,Male,White,High,Private,College Prep,.1,.56,.67,9,54.8,61.9,60.4,55.3,65.5
+586,Male,White,High,Private,College Prep,.71,-.06,.67,9,44.2,37.8,49.2,39,45.6
+587,Male,White,High,Private,College Prep,.68,-.53,1,11,48.4,48.2,60.5,60.1,49.3
+588,Male,White,Medium,Private,Standard,-.93,-.8,.33,9,52.1,51.5,49.5,55.3,45.6
+589,Male,White,High,Private,College Prep,-.6,.34,0,2,49.5,41.7,50.3,36.3,60.5
+590,Male,White,Medium,Private,College Prep,.06,.03,.67,16,46.9,56.7,56.1,60.7,55.6
+591,Female,White,High,Private,College Prep,1.14,.63,1,15,55.3,53.4,44.5,53.6,48.1
+592,Female,White,High,Private,College Prep,.06,.03,.67,14,46.9,60.6,51.3,63.4,30.6
+593,Male,White,Medium,Private,College Prep,-1.09,-.26,.33,11,44.2,41.1,45.1,47.1,45.6
+594,Male,White,High,Private,College Prep,.02,.28,.67,9,44.2,51.5,52.9,52.6,45.6
+595,Male,White,High,Private,College Prep,0,.03,.33,10,52.1,59.3,50.4,60.7,60.5
+596,Male,White,High,Private,College Prep,.27,-1.05,.33,9,60.1,54.1,56.3,55.3,55.6
+597,Male,White,Medium,Private,College Prep,.55,.34,1,16,62.7,61.9,72.9,63.4,55.6
+598,Male,White,Medium,Private,College Prep,-.61,.34,.67,16,68,54.1,74.6,66.1,65.5
+599,Female,White,Medium,Private,College Prep,.23,.94,1,10,57.4,67.1,57.9,60.7,55.6
+600,Male,White,Medium,Private,College Prep,.02,.03,.33,9,62.7,54.1,64.7,58,50.6

@@ -1,0 +1,43 @@
+---
+title: "multiple_regression"
+output: html_document
+date: "2022-08-29"
+---
+
+```{r}
+library(dplyr)
+setwd("~/Desktop/Pharmacy_In_Progress/DS 110")
+
+ames <- read.csv("./DATA/ames.csv")
+head(ames)
+```
+
+```{r}
+
+ames <- filter(ames, Lot.Area <= 4000 , na.rm = TRUE)
+amesRed <- data.frame(Gr.Liv.Area=ames$Gr.Liv.Area,
+                      Lot.Area=ames$Lot.Area,
+                      Overall.Cond=ames$Overall.Cond,
+                      SalePrice=ames$SalePrice
+                      )
+```
+```{r}
+set.seed(110)
+
+sample <- sample(c(TRUE,FALSE),nrow(amesRed),replace = TRUE, prob = c(0.8,0.2))
+
+train <- amesRed[sample,]
+test <- amesRed[!sample,]
+```
+
+```{r}
+model <- lm(SalePrice ~ Gr.Liv.Area+Lot.Area+Overall.Cond,data =  train )
+```
+
+```{r}
+summary(model)
+```
+```{r}
+plot(model)
+```
+
