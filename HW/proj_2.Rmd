@@ -1,0 +1,34 @@
+---
+title: "Project_2"
+output: html_document
+date: "2022-10-06"
+---
+
+
+# Item 1:
+#### Making the data frame here
+```{r}
+Operation <- c(1,1,0,0,0)
+Support <- c(0,0,0,0,1)
+Old <- c(0,1,0,1,1)
+Discharge <- c(0,0,1,0,1)
+
+visit <- data.frame(Operation = Operation,
+                      Support = Support,
+                      Old = Old,
+                      Discharge = Discharge)
+visit
+```
+#### Base Uncertainty
+```{r}
+
+table(visit$Operation)
+
+```
+
+
+## A.
+```{r}
+
+```
+

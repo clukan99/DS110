@@ -1,0 +1,122 @@
+---
+title: "Project_1"
+output: html_document
+date: "2022-09-13"
+---
+```{r}
+library(ggplot2)
+```
+
+
+
+## Item 1:
+## a
+```{r}
+values <- c(45,77,20,19,101,120,212)
+celcius <- (5/9)*(values - 32)
+celcius
+```
+##b
+```{r}
+
+
+convertTemp <- function(farenheit)
+  {
+  return ((5/9)*(farenheit - 32))
+  }
+values <- c(45,77,20,19,101,120,212)
+
+###Either of these will do
+sapply(values,convertTemp)
+convertTemp(values)
+```
+## c and d
+```{r}
+set.seed(440)
+
+uniform_random_distribution <- runif(100)
+scaled_uniform_random_distribution <- scale(runif(100))
+hist(scaled_uniform_random_distribution)
+####
+####
+random_normal_distribution  <- rnorm(100)
+scaled_random_normal_distribution <- scale(rnorm(100))
+hist(scaled_random_normal_distribution)
+```
+
+
+## Item 2:
+###### Getting the census data and visualizing it by Race/Ethnicity, Median income, and year
+```{r}
+census <-read.csv("../DATA/census_data.csv")
+
+census$race <-factor(census$race, levels = c("White","Black","Asian","Hispanic"))
+table(census$race)
+```
+```{r}
+census$year <- factor(census$year,  levels= c(2016,2017,2018,2019))
+ggplot(data=census,aes(x= race,y= Income, fill = year)) +
+  geom_bar(stat="identity", position= position_dodge2())
+```
+
+
+## Item 3:
+```{r}
+diamonds$cut <- as.numeric(diamonds$cut)
+diamonds$color<- as.numeric(diamonds$color)
+diamonds$clarity <- as.numeric(diamonds$clarity)
+
+set.seed(440)
+sampled <- sample(1:length(diamonds$carat), 0.8*length(diamonds$carat), replace = FALSE)
+
+diamond_train <- diamonds[sampled,]
+diamond_test <- diamonds[-sampled,]
+```
+
+## Making the first model
+##### Using carat, color, clarity, cut to predict the price:
+```{r}
+diamond_model_1 <- lm(data=diamond_train, price ~ carat + color + clarity + cut)
+model_1_summary <- summary(diamond_model_1)
+model_1_summary
+```
+
+```{r}
+model_1_predict <-predict(object = diamond_model_1, diamond_test)
+resid_model_1 <- diamond_test$price - model_1_predict
+### Chose degree of freedom based on 6 predictors and one intercept = 7
+### Length of test is 10'788
+model_1_RSE <- sqrt(sum(resid_model_1^2)/10781)
+var(model_1_predict)/var(diamond_test$price)
+```
+
+##### RSE train: 1234
+##### RSE test: 1241
+##### When assessing the fit, the model (R2 = .915)  predicts that there is high correlation between the actual and predicted variables. When using the RSE 2 to 1 rule, the RSE test perfectly is within the value of 2*Train. Therefore, this is a good model. 
+##### (Asses compared to the RSE 2 to 1  rule)
+
+## Making the second model
+##### Using carat, color, clarity, cut, x, y, z to predict the price:
+```{r}
+diamond_model_2 <- lm(data=diamond_train, price ~ carat + color + clarity + cut +  x + y + z)
+model_2_summary <- summary(diamond_model_2)
+model_2_summary
+```
+
+```{r}
+model_2_predict <- predict(object = diamond_model_2, diamond_test)
+
+resid_model_2 <- diamond_test$price - model_2_predict
+
+
+### Chose degree of freedom based on 9 predictors and one intercept = 10
+### Length of test is 10'788
+model_2_RSE <- sqrt(sum(resid_model_2^2)/10778)
+var(model_2_predict)/var(diamond_test$price)
+
+```
+
+##### Train RSE: 1217
+##### Test RSE: 1230
+##### When assessing the fit, the model (R2 = .916)  predicts that there is high correlation between the actual and predicted variables. When using the RSE 2 to 1 rule, the RSE test perfectly is within the value of 2*Train. Therefore, this is a good model. 
+##### (Asses compared to the RSE 2 to 1  rule)

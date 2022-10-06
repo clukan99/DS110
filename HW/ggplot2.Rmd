@@ -1,0 +1,59 @@
+---
+title: "ggplot2"
+output: html_document
+date: "2022-08-29"
+---
+
+```{r}
+library(ggplot2)
+```
+
+# 1. Produce a bar graph shaded by cut
+```{r}
+plot <- ggplot(data = diamonds,mapping = aes(clarity)) +
+  geom_bar(aes(fill = factor(cut)), alpha = 0.3)
+
+plot
+```
+
+
+# 2. Produce a density plot of price filled by cut
+```{r}
+plot2 <- ggplot(data=diamonds, mapping=aes(price)) +
+  geom_density(aes(fill = factor(cut)), alpha = 0.3)
+
+plot2
+```
+
+# 3. Produce a box plot of price broken down by color
+```{r}
+plot3 <- ggplot(data=diamonds, mapping = aes(y=price)) +
+  geom_boxplot(aes(fill = factor(color))) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+plot3
+
+```
+
+# 4. Adding a faceted breakdown by clarity 
+```{r}
+ggplot(data = diamonds, mapping = aes(y=price)) +
+  geom_boxplot(aes(fill = color)) +
+  facet_wrap(~ clarity, ncol = 2)
+  
+```
+
+
+
+# Produce a plot with a regression line 
+## What was learned from this?
+What was learned from this is that there is almost a linear correlation between price and carrat. It looks like the price is higher when the carrat is an integer and not between two integers. 
+```{r}
+plot <- ggplot(diamonds, mapping =  aes(x =carat,y=price))+
+  geom_point()
+
+plot + stat_smooth(method = "lm",
+                   formula = y~x,
+                   geom = "smooth")
+```
+

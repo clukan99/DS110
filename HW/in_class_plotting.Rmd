@@ -1,0 +1,53 @@
+---
+title: "in_class_plotting"
+author: "Caiden Lukan"
+output: html_document
+date: "2022-09-12"
+---
+
+
+```{r warning=FALSE}
+daily <- read.csv("../DATA/daily.csv")
+daily$day_of_week <- factor(daily$day_of_week, levels= c("Sun","Mon","Tues","Wed","Thurs","Fri","Sat"))
+daily$month <- factor(daily$month, levels= c("Jan","Feb",'March',"April","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"))
+```
+
+
+```{r warning=FALSE}
+daily2 <- table(daily$n_riders,daily$day_of_week)
+
+####Make level adjustments first
+boxplot(daily$n_riders ~ daily$day_of_week)
+boxplot(daily$n_riders ~ daily$month)
+```
+```{r}
+
+hsit(daily$n_riders, freq=TRUE)
+hist(daily$n_riders, freq=FALSE, main = "Daily Riders")
+lines(seq(0,400), dnorm(seq(0,400),mean(daily$n_riders), sd(daily$n_riders)), col = "red", lwd = 2, type = "l")
+```
+
+```{r}
+d <- density(daily$n_riders)
+plot(d, main = "Density of riders")
+fun <- dnorm(seq(1,364), mean = mean(daily$n_riders), sd = sd(daily$n_riders))
+lines(seq(1,364), fun, col = 2)
+```
+
+
+
+```{r}
+plot(x= daily$n_rides, y= daily$n_riders, pch = 16)
+abline(lm(daily$n_riders ~ daily$n_rides), col = "red", lwd = 3)
+abline(h = mean(daily$n_riders))
+abline(v = mean(daily$n_rides))
+```
+
+
+
+```{r}
+ggplot(daily, aes(x=n_rides,y=n_riders)) +
+  geom_point() +
+  geom_smooth()
+```
+

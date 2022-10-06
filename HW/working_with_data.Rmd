@@ -1,0 +1,53 @@
+---
+title: "working_with_data"
+output: html_document
+date: "2022-08-29"
+---
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+daily <- read.csv("./DATA/daily.csv")
+#daily <- ordered(daily$day_of_week, levels =  c("Mon","Tues","Wed","Thurs","Fri","Sat","Sun"))
+
+daily2 <- factor(daily$day_of_week,  levels = c("Mon","Tues","Wed","Thurs","Fri","Sat","Sun"))
+table(daily2)
+```
+
+```{r}
+weekend <- filter(daily, day_of_week == "Sat" | day_of_week  ==  "Sun")
+weekday <-filter(daily, day_of_week != "Sat" & day_of_week  !=  "Sun")
+```
+
+
+```{r}
+winterRiders <- filter(weekend, month == "Jan" | month == "Feb"| month  == "Mar")
+```
+
+```{r}
+hist(winterRiders$n_riders)
+```
+
+
+
+```{r}
+###Get desired numbers
+even_row_num <- seq(2,nrow(daily),2)
+odd_row_num<-seq(1,nrow(daily),2)
+even <- daily[even_row_num,]
+odd <- daily[odd_row_num,]
+
+```
+
+
+
+```{r}
+set.seed(440)
+sample<- sample(1:nrow(daily), nrow(daily)*0.6, replace  = TRUE)
+train <-  daily[sample,]
+test <- daily[-sample,]
+
+```
+

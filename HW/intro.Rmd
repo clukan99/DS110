@@ -1,0 +1,42 @@
+---
+title: "intro"
+output: html_document
+date: "2022-08-31"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(stats)
+a <- 2.3
+
+print((6*a +42)/(3^(4.2-3.62)))
+
+
+b <- 32*41/8/2.33
+c <- (-8.2)*10^(-13)
+
+print(b/c)
+
+v1 <- c(23,32,67,12,19,40,18,45)
+
+print(v1[3])
+
+v2 <- v1*v1 - 15
+
+
+mean(v2)
+sd(v2)
+
+df <- data.frame(v1,v2)
+v1[v1 > 35]
+
+
+v3 <- (v1%%2 == 0 )
+
+df$v3 <- v3
+df
+```
+
