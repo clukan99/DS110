@@ -1,0 +1,110 @@
+---
+title: "Project_2_item2"
+output: html_document
+date: "2022-10-06"
+---
+# Item 2:
+## A.
+```{r}
+white_wine <- read.csv("../../DATA/winequality-white.csv")
+n <- nrow(white_wine)
+white_sample <- sample(1:n, n*0.8, replace = FALSE)
+
+white_train <- white_wine[white_sample,]
+white_test <- white_wine[-white_sample,]
+
+set.seed(440)
+
+white_model <- lm(quality ~ fixed_acidity+residual_sugar+total_sulfur_dioxide+ pH+ alcohol, data = white_train)
+
+white_model_summary <- summary(white_model)
+white_model_summary
+
+```
+## B.
+```{r}
+white_wine_predict <- predict(object = white_model, white_test)
+white_wine_resid <- white_wine_predict - white_test$quality
+### 5 predictors plus one intercept --> 6 degrees of freedom
+### 980 rows in white wine - 6 = 974
+white_wine_test_RSE <- sqrt(sum(white_wine_resid^2)/974)
+var(white_wine_predict)/var(white_test$quality)
+```
+##### Test: 0.7855
+##### Train: 0.79
+##### According to the "2 to 1" rule, this is a good model. However, according to the R2 of 0.19, this would not be as good of a model. 
+
+## C.
+##### Projecting the red wine dataset onto the white wine dataset; Using the white wine model to predict the values of the red wine dataset. The residuals are based off of the red wine dataset
+```{r}
+red_wine <- read.csv("../../DATA/winequality-red.csv")
+red_wine_predict <- predict(object = white_model,data = red_wine)
+####Need to order this
+red_wine_resid <- red_wine_predict - red_wine$quality
+### 5 predictors plus one intercept --> 6 degrees of freedom
+### 1599 rows in red wine - 6 = 1593
+#red_wine_RSE <- sqrt(sum(white_wine_resid^2)/1593)
+#var(red_wine_predict)/var(red_wine$quality)
+
+```
+
+## D.
+##### Poor (0) wine is quality <= 4, Excellent(1) wine is quality >= 8, Eliminate all wine that is inbetween
+```{r}
+quality <- function(x){
+  if (x <= 4){
+    x <- 0
+  }
+  else if(x >= 8){
+    x <- 1
+  }
+  else{
+    x <- NA
+  }
+}
+
+white_wine$classifier <- sapply(white_wine$quality,quality)
+white_wine <- na.omit(white_wine)
+
+quality_factor<- factor(white_wine$classifier, levels = c(0,1), labels = c("Bad", "Good"))
+table(quality_factor)
+```
+
+```{r}
+quality2 <- glm(classifier ~ fixed_acidity+residual_sugar+total_sulfur_dioxide+ pH+ alcohol, data = white_wine, family = binomial)
+summary(quality2)
+```
+```{r}
+plot(x=white_wine$classifier,y=quality2$fitted.values, main = "Fitted Values Plot")
+plot(x=white_wine$fixed_acidity,y=quality2$fitted.values, main = "Fitted Values Plot")
+plot(x=white_wine$residual_sugar,y=quality2$fitted.values, main = "Fitted Values Plot")
+plot(x=white_wine$total_sulfur_dioxide,y=quality2$fitted.values, main = "Fitted Values Plot")
+plot(x=white_wine$pH,y=quality2$fitted.values, main = "Fitted Values Plot")
+plot(x=white_wine$alcohol,y=quality2$fitted.values, main = "Fitted Values Plot")
+
+```
+
+```{r}
+logitR2 <- 1 - (quality2$deviance/quality2$null.deviance)
+logitR2
+```
+```{r}
+criteria <- 0.5
+predWine <- ifelse (quality2$fitted.values > criteria, "Yes", "No") #We can set this
+```
+```{r}
+t = table (predWine, "Truth" = quality_factor)
+t
+library (caret)
+#confusionMatrix(t, positive = "Yes")  #"Yes" is you get the loan
+```
+
+```{r}
+library(pROC)
+par(pty="s") # forces plot to be square as ROC plots should be!
+logit_roc = roc(white_wine$quality ~ quality2$fitted.values, 
+                plot = TRUE, axis = TRUE, xlim=c(1,0), ylim=c(0,1),
+                legacy.axes = TRUE, print.auc = TRUE, grid=TRUE,
+                identity=TRUE, add = FALSE)
+```
+

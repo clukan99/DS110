@@ -1,0 +1,60 @@
+---
+title: "Project_2_item2"
+output: html_document
+date: "2022-10-06"
+---
+```{r}
+library(tidyverse)
+library(rpart)
+library(rpart.plot)
+```
+
+# Item 3:
+## A.
+
+##### Splitting here
+```{r}
+personal <- read.csv("../../DATA/personal_loan.csv")
+
+set.seed(440)
+n <-nrow(personal)
+personal_sample <- sample(1:n,n*0.6,replace = FALSE)
+
+personal_train <- personal[personal_sample,]
+personal_test <- personal[-personal_sample,]
+```
+##### Training here
+```{r}
+personal_model <- rpart(formula = TARGET ~ AGE+GENDER+OCCUPATION+ACC_TYPE +LEN_OF_RLTN_IN_MNTH+ NO_OF_CREDIT_TXNS +NO_OF_DEBIT_TXNS+ NO_OF_ATM_DR_TXNS+ NO_OF_CHQ_DR_TXNS+FLG_HAS_CC+ AMT_ATM_DR +AMT_LOAN+ AVG_AMT_PER_ATM_TXN+ AVG_AMT_PER_CHQ_TXN+ FLG_HAS_NOMINEE +FLG_HAS_OLD_LOAN,
+                     data = personal_train,
+                     method = "class",
+                     control = rpart.control(cp = 0.001), #complexity parameter (cp) in rpart is the minimum improvement in the model needed at each node.
+                     maxdepth = 9,
+                     minsplit = 5)
+
+
+```
+##### Predict here
+```{r}
+personal_model_predict <- predict(object = personal_model,
+                         newdata = personal_test,
+                         type = "class")
+```
+
+```{r}
+prp(personal_model, extra = 1, faclen=0,  nn = T,
+    box.col=c("green", "red"))
+
+printcp(personal_model) # complexity parameter (cp) in rpart is the minimum improvement in the model needed at each node.
+plotcp(personal_model) # complexity parameter (cp) in rpart is the minimum improvement in the model needed at each node.
+```
+
+## B.
+```{r}
+
+```
+
+## C.
+```{r}
+```
+

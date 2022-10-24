@@ -1,0 +1,67 @@
+---
+title: "Project_2"
+output: html_document
+date: "2022-10-06"
+---
+```{r}
+library(tidyverse)
+```
+
+
+# Item 4:
+##### What are the predictors for atherosclerosis without cardiac catheterizatoin
+```{r}
+heart_data <- read.csv("../../DATA/heart.csv")
+```
+## A.
+### Lets explore the data
+```{r}
+dim(heart_data)
+colnames(heart_data)
+```
+### lets look at the relationships between cholesterol and output in a box plot
+```{r}
+heart_data$output <-factor(heart_data$output, levels =  c(0,1))
+ggplot(data = heart_data,aes(y=chol))+
+  geom_boxplot(aes(fill =output))
+
+ggplot(data = heart_data,aes(y=fbs))+
+  geom_boxplot(aes(fill =output))
+
+summary(heart_data$chol)
+summary(heart_data$fbs)
+```
+##### The results of the cholesterol indicates that approximatelly 75% of patients have serum cholesterol greater than 200 (normal). A good statistic would be to look at the amount of people who have high cholesterol and an output of 1 and vice versa
+##### The range between the first quartile and the third quartile is 90 - 114, indicating that there are at least 50% of patients that have a blood sugar in the normal range of 80-120.
+
+## B.
+### Splitting the data
+```{r}
+n <- nrow(heart_data)
+heart_sample <- sample(1:n,n*0.7,replace = FALSE)
+
+heart_train <- heart_data[heart_sample,]
+heart_test <- heart_data[-heart_sample,]
+```
+### Regression
+```{r}
+reg_heart_model <- lm(output ~ . ,data = heart_train)
+reg_heart_summary <- summary(reg_heart_model)
+
+```
+### LDA
+```{r}
+
+```
+### Naive Bayes
+```{r}
+
+```
+### KNN
+```{r}
+
+```
+
+
+
+

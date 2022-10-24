@@ -1,0 +1,74 @@
+---
+title: "Project_2"
+output: html_document
+date: "2022-10-06"
+---
+
+
+# Item 1:
+#### Making the data frame here
+```{r}
+Operation <- c(1,1,0,0,0)
+Support <- c(0,0,0,0,1)
+Old <- c(0,1,0,1,1)
+Discharge <- c(0,0,1,0,1)
+
+visit <- data.frame(Operation = Operation,
+                      Support = Support,
+                      Old = Old,
+                      Discharge = Discharge)
+visit
+```
+#### Base Uncertainty
+```{r}
+
+table(visit$Operation)
+
+```
+
+
+## A.
+```{r}
+
+```
+
+# Item 2:
+## A.
+```{r}
+white_wine <- read.csv("../DATA/winequality-white.csv")
+n <- nrow(white_wine)
+white_sample <- sample(1:n, n*0.8, replace = FALSE)
+
+white_train <- white_wine[white_sample,]
+white_test <- white_wine[-white_sample,]
+
+set.seed(440)
+
+white_model <- lm(quality ~ fixed_acidity+residual_sugar+total_sulfur_dioxide+ pH+ alcohol, data = white_train)
+
+white_model_summary <- summary(white_model)
+white_model_summary
+
+```
+## B.
+```{r}
+white_wine_predict <- predict(object = white_model, white_test)
+white_wine_resid <- white_wine_predict - white_test$quality
+### 5 predictors plus one intercept --> 6 degrees of freedom
+### 980 rows - 6 = 974
+white_wine_test_RSE <- sqrt(sum(white_wine_resid^2)/974)
+var(white_wine_predict)/var(white_test$quality)
+```
+##### Test: 0.7855
+##### Train: 0.79
+##### According to the "2 to 1" rule, this is a good model. However, according to the R2 of 0.19, this would not be as good of a model. 
+
+## C.
+```{r}
+red_wine <- read.csv("../DATA/winequality-red.csv")
+```
+
+## D.
+```{r}
+
+```
