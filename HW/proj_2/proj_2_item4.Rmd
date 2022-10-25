@@ -5,6 +5,9 @@ date: "2022-10-06"
 ---
 ```{r}
 library(tidyverse)
+library(MASS)
+library (naivebayes)
+library(caret)
 ```
 
 
@@ -37,29 +40,71 @@ summary(heart_data$fbs)
 ## B.
 ### Splitting the data
 ```{r}
+set.seed(440)
 n <- nrow(heart_data)
-heart_sample <- sample(1:n,n*0.7,replace = FALSE)
+heart_sample <- sample(1:n,n*0.6,replace = FALSE)
 
 heart_train <- heart_data[heart_sample,]
 heart_test <- heart_data[-heart_sample,]
 ```
-### Regression
+### Logistic Regression
 ```{r}
-reg_heart_model <- lm(output ~ . ,data = heart_train)
+
+reg_heart_model <- glm(output ~ . ,data = heart_train, family = binomial)
 reg_heart_summary <- summary(reg_heart_model)
+reg_heart_summary
+```
+
+```{r}
 
 ```
+
+```{r}
+#plot(x = , y = reg_heart_model$fitted.values)
+```
+
 ### LDA
 ```{r}
-
+lda_heart_model <- lda(output ~., data = heart_train)
+lda_heart_model
 ```
+```{r}
+lda_heart_predict <- predict(object = lda_heart_model, data = heart_test)
+```
+```{r}
+plot(lda_heart_model)
+```
+
+
 ### Naive Bayes
 ```{r}
-
+bayes_heart_model <- naive_bayes(output ~., data = heart_train)
+print(bayes_heart_model)
+summary(bayes_heart_model)
+plot(bayes_heart_model)
 ```
-### KNN
-```{r}
 
+```{r}
+bayes_heart_predict_prob <- predict(bayes_heart_model, type = "prob")
+bayes_heart_predict_class <- predict(bayes_heart_model, type = "class")
+```
+```{r}
+t <- table("predict" = bayes_heart_predict_class, "truth" = heart_train$output)
+
+sum(diag(t)) / nrow(heart_train) # Accuraccy
+```
+```{r}
+bayes_heart_test_predict_class <- predict(object = bayes_heart_model, newdata = heart_test, type = "class")
+```
+```{r}
+confusionMatrix(bayes_heart_test_predict_class, reference=heart_test$output)
+```
+```{r}
+library (pROC)
+y <- as.numeric(heart_test$output)
+x <- as.numeric(bayes_heart_test_predict_class)
+grad_roc = roc(y ~ x, plot = TRUE, print.auc = TRUE, 
+               auc.polygon=FALSE, legacy.axes=TRUE)
 ```
 
 
